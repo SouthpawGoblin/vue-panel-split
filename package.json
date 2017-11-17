@@ -1,0 +1,23 @@
+{
+  "name": "vue-panel-split",
+  "version": "1.0.1",
+  "description": "A split-panel component with draggable splitter for Vue.js",
+  "main": "src/splitPanel.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouthpawGoblin/vue-panel-split.git"
+  },
+  "keywords": [
+    "vue",
+    "splitter",
+    "split panel",
+    "vue split",
+    "vue split panel"
+  ],
+  "author": "Roger-Qi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SouthpawGoblin/vue-panel-split/issues"
+  },
+  "homepage": "https://github.com/SouthpawGoblin/vue-panel-split#readme"
+}
