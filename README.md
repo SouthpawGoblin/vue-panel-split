@@ -1,6 +1,8 @@
 # vue-panel-split
 A split-panel component with draggable splitter for Vue.js, can be either horizontal or vertical.
 
+[Demo Here](https://southpawgoblin.github.io/vue-panel-split/)
+
 ## Install
 ```npm
 npm install vue-panel-split --save
