@@ -33,7 +33,7 @@ export default {
 name | description | values | default
 ---- | ----------- | ------ | -------
 `layout` | layout of the panel | 'horizontal' or 'vertical' | 'horizontal'
-`gutter` | gutter width in px | arbitrary | 5
+`gutter` | gutter width in px | arbitrary | 8
 `init` | initial width percentage of the first panel | 0 to 100 | 50
 `min` | minimum width percentage of the first panel | 0 to 100 | 0
 `miax` | maximum width percentage of the first panel | 0 to 100 | 100

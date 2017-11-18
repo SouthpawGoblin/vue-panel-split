@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       layoutType: this.layout || 'horizontal',
-      gutterSize: this.gutter || 5,
+      gutterSize: this.gutter || 8,
       percent: this.init || 50,
       minPercent: this.min || 0,
       maxPercent: this.max || 100,
@@ -93,15 +93,6 @@ export default {
     width: 100%;
   }
 
-  .split-panel.hori > .split-panel-gutter {
-    height: 100%;
-    cursor: col-resize;
-  }
-  .split-panel.vert > .split-panel-gutter {
-    width: 100%;
-    cursor: row-resize;
-  }
-
   .split-panel-gutter {
     display: inline-block;
     background: rgba(0,0,0,0.2);
@@ -110,10 +101,16 @@ export default {
     background-clip: padding-box;
   }
   .split-panel.hori > .split-panel-gutter {
+    height: 100%;
+    cursor: col-resize;
+    margin: 0 -1px;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
   }
   .split-panel.vert > .split-panel-gutter {
+    width: 100%;
+    cursor: row-resize;
+    margin: -1px 0;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
   }
