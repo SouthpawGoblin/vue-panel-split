@@ -1,6 +1,6 @@
 {
   "name": "vue-panel-split",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A split-panel component with draggable splitter for Vue.js",
   "main": "src/splitPanel.vue",
   "repository": {
