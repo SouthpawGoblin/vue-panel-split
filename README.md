@@ -38,7 +38,7 @@ name | description | values | default
 `gutter` | gutter width in px | arbitrary | 8
 `init` | initial width percentage of the first panel | 0 to 100 | 50
 `min` | minimum width percentage of the first panel | 0 to 100 | 0
-`miax` | maximum width percentage of the first panel | 0 to 100 | 100
+`max` | maximum width percentage of the first panel | 0 to 100 | 100
 
 ## License
 MIT
